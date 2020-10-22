@@ -13,3 +13,7 @@ a{
     color:whitesmoke;
 }
 p.outset{border-style: outset;}
+
+.imgrez{
+    max-width: 100%;
+}
