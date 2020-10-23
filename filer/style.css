@@ -15,5 +15,19 @@ a{
 p.outset{border-style: outset;}
 
 .imgrez{
-    max-width: 100%;
+    max-width: 100%;    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
+    background-color: #202020;
+    padding: 10px;
+}
+.grid-container > div {
+    grid-template-columns: auto;
+    background-color: rgba(60, 60, 60, 1);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
 }
