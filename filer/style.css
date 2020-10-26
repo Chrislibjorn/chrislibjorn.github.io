@@ -28,6 +28,20 @@ p.outset{border-style: outset;}
     grid-template-columns: auto;
     background-color: rgba(60, 60, 60, 1);
     text-align: center;
-    padding: 10px 0;
+    padding: 4px 0;
     font-size: 30px;
+}
+.butt1{
+    background-color: #47474700;
+    border-radius: 4px;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    color: whitesmoke;
+    transition-duration: 1s;
+}
+
+.butt1:hover {
+    background-color: whitesmoke;
+    color: black;
 }
