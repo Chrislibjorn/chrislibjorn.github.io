@@ -1,11 +1,9 @@
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(windowWidth, windowHeight);
   }
   function draw(){
       let x = mouseX;
       let y = mouseY;
-      let b = (0,0,100)
-      let e = (0,0,0)
       let v1= 1
       background(20,20,20)
       fill(20,20,200)

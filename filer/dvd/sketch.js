@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(600, 350);
+  createCanvas(windowWidth -10, windowHeight-250);
 }
 let va = 4
 let x = 50
@@ -18,7 +18,7 @@ function draw() {
   textSize(30)
   text('(DVD)', x, y) 
   {
-    if (510 < x) {
+    if (windowWidth-100< x) {
       v = -va
       r = 255
       g = 0
@@ -36,7 +36,7 @@ function draw() {
       g = 255
       b = 50
     }
-    if (y > 340) {
+    if (y > windowHeight-260) {
       v2 = -va
       r = 0
       g = 255
