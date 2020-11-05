@@ -1,3 +1,3 @@
 # school-stuff
 for school
-[site](filer)
+[site](filer/index.html)
