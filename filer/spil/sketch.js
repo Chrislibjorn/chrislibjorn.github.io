@@ -11,9 +11,8 @@ function setup() {
     createCanvas(windowWidth - 10, windowHeight - 250);
     xs = random(0, width)
 }
-
-
 function draw() {
+    v=windowHeight/90
     let x = mouseX;
     background(20, 20, 20)
     if (mouseIsPressed){
@@ -38,7 +37,7 @@ function draw() {
     //hitmaker
     //enemy model
     if ((y2 < windowHeight - 250) && (p == 0)) {
-        y2=y2+10
+        y2=y2+v
         circle(xs, y2, 20);
     } else {
         xs = random(0, width);
