@@ -1,7 +1,7 @@
 let xs = 0
 let y2 = 0
+//mouseimput
 let c = 0
-let c1 = 0
 let p = 0
 //highscore
 let h = 0
@@ -16,8 +16,13 @@ function setup() {
 function draw() {
     let x = mouseX;
     background(20, 20, 20)
+    if (mouseIsPressed){
+        c++
+    }else{
+        c=0
+    }
     //laser
-    if (mouseIsPressed) {
+    if (c>0 && c<10) {
         fill(255, 20, 20)
         rect(x - 1.5, !height, 3, height)
         if ((xs - 10 <= x) && (xs + 10 >= x)) {
