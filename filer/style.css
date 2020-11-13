@@ -8,6 +8,7 @@ h1,h2,h3,h4,h5,h6{
 p{
     size: 69px;
     color: whitesmoke;
+    text-align: left;
 }
 a{
     color:whitesmoke;
@@ -73,6 +74,11 @@ p.outset{border-style: outset;}
 }
 .one{
     grid-column: 1 / span 1;
+    background-color: rgba(60, 60, 60, 1);
+    size:100%;
+}
+.two{
+    grid-column: 2 / span 2;
     background-color: rgba(60, 60, 60, 1);
     size:100%;
 }
