@@ -33,10 +33,10 @@ function draw() {
     }
     //player model 
     fill(255, 255, 255)
-    rect(x - 10, windowHeight - 20, 20, 20)
+    rect(x - 10, windowHeight - 40, 20, 400)
     //hitmaker
     //enemy model
-    if ((y2 < windowHeight) && (p == 0)) {
+    if ((y2 < windowHeight-10) && (p == 0)) {
         y2=y2+v
         circle(xs, y2, 20);
     } else {

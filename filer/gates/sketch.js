@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(windowWidth-20, windowHeight);
+    createCanvas(400, 400);
   }
   function draw(){
       let x = mouseX;
