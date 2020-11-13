@@ -21,28 +21,33 @@ p.outset{border-style: outset;}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
+    grid-row-gap: 0.1%;
+    grid-column-gap: 0.1%;
     background-color: #202020;
-    padding: 10px;
+    padding: 1%;
     justify-content: space-evenly;
     align-content: space-around;
 }
 .grid-container > div {
     text-align: center;
-    padding: 4px 8;
-    font-size: 30px;
+    padding: 1%;
 }
 .tekst {
     background-color: rgba(60, 60, 60, 1);
     text-align: justify;
-    padding: 4px 8;
-    font-size: 20px;
+    padding: 1% ;
+    font-size: 100%;
+    size:100%;
     grid-column: 1 / span 5;
 }
 .button-grid {
     background-color: rgba(255, 60, 60, 0);
-    font-size: 20px;
+    size:22%;
+}
+.buttlarge {
+    background-color: rgba(255,60,60,0);
+    size: 100%;
+    grid-column: 1/span 5;
 }
 .butt1{
     background-color: rgba(60, 60, 60, 1);
@@ -50,10 +55,10 @@ p.outset{border-style: outset;}
     border-color: #202020;
     width: 100%;
     height: 100px;
-    font-size: 30px;
+    font-size: 120%;
     color: whitesmoke;
     transition-duration: 1s;
-    padding:4px;
+    padding:1%;
 }
 
 .butt1:hover {
@@ -62,9 +67,11 @@ p.outset{border-style: outset;}
 }
 .four{
     grid-column: 1 / span 5;
-    background-color: rgba(60, 60, 60, 1)
+    background-color: rgba(60, 60, 60, 1);
+    size:100%;
 }
 .one{
     grid-column: 1 / span 1;
-    background-color: rgba(60, 60, 60, 1)
+    background-color: rgba(60, 60, 60, 1);
+    size:100%;
 }

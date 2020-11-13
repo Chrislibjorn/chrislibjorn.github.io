@@ -8,7 +8,7 @@ let h = 0
 //points
 let t = 0
 function setup() {
-    createCanvas(windowWidth - 10, windowHeight - 250);
+    createCanvas(windowWidth - 20, windowHeight);
     xs = random(0, width)
 }
 function draw() {
@@ -33,10 +33,10 @@ function draw() {
     }
     //player model 
     fill(255, 255, 255)
-    rect(x - 10, windowHeight - 270, 20, 20)
+    rect(x - 10, windowHeight - 20, 20, 20)
     //hitmaker
     //enemy model
-    if ((y2 < windowHeight - 250) && (p == 0)) {
+    if ((y2 < windowHeight) && (p == 0)) {
         y2=y2+v
         circle(xs, y2, 20);
     } else {
@@ -47,7 +47,7 @@ function draw() {
     if(t>h){
         h++;
     }
-    if(y2>windowHeight-260){
+    if(y2>windowHeight-10){
         t=0
     }
     {

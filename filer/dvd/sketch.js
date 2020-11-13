@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(windowWidth -10, windowHeight-250);
+  createCanvas(windowWidth-20 , windowHeight);
 }
 let va = 4
 let x = 50
@@ -36,7 +36,7 @@ function draw() {
       g = 255
       b = 50
     }
-    if (y > windowHeight-260) {
+    if (y > windowHeight-10) {
       v2 = -va
       r = 0
       g = 255
