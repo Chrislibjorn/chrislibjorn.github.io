@@ -8,8 +8,8 @@ let h = 0
 //points
 let t = 0
 function setup() {
-    createCanvas(windowWidth - 20, windowHeight);
-    xs = random(0, width)
+    createCanvas(windowWidth, windowHeight);
+    xs = random(20, width-25)
 }
 function draw() {
     v=windowHeight/90
@@ -40,7 +40,7 @@ function draw() {
         y2=y2+v
         circle(xs, y2, 20);
     } else {
-        xs = random(0, width);
+        xs = random(20, width-25);
         y2 = 0;
 
     }
