@@ -14,7 +14,7 @@ let g = 50
 let v1 = 1
 let v=v1
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth-20, windowHeight-20);
     xs = random(20, width - 25)
 }
 function draw() {
@@ -44,10 +44,10 @@ function draw() {
     }
     //player model 
     fill(255, 255, 255)
-    rect(x - 10, windowHeight - 40, 20, 400)
+    rect(x - 10, windowHeight - 60, 20, 400)
     //hitmaker
     //enemy model
-    if ((y2 < windowHeight - 10) && (p == 0)) {
+    if ((y2 < windowHeight - 30) && (p == 0)) {
         y2 = y2 + v
         circle(xs, y2, 20);
     } else {
@@ -60,7 +60,7 @@ function draw() {
         h++;
     }
     //reset
-    if (y2 > windowHeight - 10) {
+    if (y2 > windowHeight - 30) {
         t = 0;
         r = 0;
         g = 50
