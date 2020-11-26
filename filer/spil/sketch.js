@@ -45,9 +45,9 @@ function draw() {
     //player model 
     fill(255, 255, 255)
     rect(x - 10, windowHeight - 60, 20, 400)
-    //hitmaker
-    //enemy model
+    //enemy model draw funktion and respawn.
     if ((y2 < windowHeight - 30) && (p == 0)) {
+        //y kordinate plus velocity
         y2 = y2 + v
         circle(xs, y2, 20);
     } else {
@@ -61,13 +61,18 @@ function draw() {
     }
     //reset
     if (y2 > windowHeight - 30) {
+        //active point reset.
         t = 0;
+        //red colur value reset
         r = 0;
+        //green colorvalue reset
         g = 50
+        //returns velocity to base
         v = v1
 
     }
     {
+        //meteor speed in total numbers
         var vt = v.toFixed(1);
     }
     {
