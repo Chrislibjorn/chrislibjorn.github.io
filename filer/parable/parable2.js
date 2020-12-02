@@ -18,6 +18,7 @@ let cx = 350
 let diameter = 3
 //i er verdien af en specifik treg, og n er antallet af streger.
 function draw() {
+    //n er anatal streger
     let n = slider.value();
     background(255);
     line(ax, ay, bx, by)
