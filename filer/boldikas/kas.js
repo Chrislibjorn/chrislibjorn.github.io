@@ -2,6 +2,7 @@ function setup() {
     let canvas = createCanvas(500, 400);
     canvas.parent(game)
 }
+//ø
 //hastighed
 let va = [5, 6, 7, 8]
 let xs = [20, 40, 60, 80]
