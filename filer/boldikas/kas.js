@@ -59,13 +59,13 @@ function draw() {
         fill(255)
         circle(x1, y1, 20);
         //cirkel 2
-        fill(0,0,255)
+        fill(0, 0, 255)
         circle(x2, y2, 20);
         //cirkel 3
-        fill(0,255,0)
+        fill(0, 255, 0)
         circle(x3, y3, 20);
         //cirkel 4
-        fill(255,0,0)
+        fill(255, 0, 0)
         circle(x4, y4, 20)
         {
             //hastighed bold 1
