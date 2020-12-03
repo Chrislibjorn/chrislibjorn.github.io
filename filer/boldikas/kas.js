@@ -42,7 +42,6 @@ let v2_4 = 0 + v_4
 
 function draw() {
     background(20);
-
     {
         //cordinat 1
         x1 = x1 + v1_1
